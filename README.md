@@ -1,8 +1,8 @@
 # Fine_Tunning_of_LLAMA2_Model
 
-# My HuggingFace Account : https://huggingface.co/pashd
+### My HuggingFace Account : https://huggingface.co/pashd
 
-# Data Set
+## Data Set
 
 - Original data: https://huggingface.co/datasets/timdettmers/openassistant-guanaco?row=0
 
@@ -25,3 +25,6 @@
 - Full fine-tuning is not possible here: we need parameter-efficient fine-tuning (PEFT) techniques like LoRA or QLoRA.
 
 - To drastically reduce the VRAM usage, we must fine-tune the model in 4-bit precision, which is why we’ll use LoRA here.
+
+
+### Introduction to Quantization By HuggingFace : https://huggingface.co/blog/merve/quantization
